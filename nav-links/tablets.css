@@ -1,0 +1,233 @@
+body{
+    background: rgb(248, 245, 245)
+}
+
+.tablets{
+    padding: 100px 65px 65px 65px;
+    display: flex;
+    width: 100%;
+    height: auto;
+    background: rgb(248, 245, 245);
+}
+
+.head-tablets{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.head-tablets .tablets-bold{
+    font-size: 39px;
+    line-height: 44px;
+    font-weight: 540;
+    color: black;
+}
+
+
+
+.tablet-image{
+    padding: 0px 65px;
+}
+
+.tablet-image img{
+    width: 100%;
+    height: 230px;
+    border-radius: 20px;
+}
+
+.tablet-img-details{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 25px 65px;
+}
+
+
+
+.inside-tablet-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background: rgb(255, 255, 255);
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    width: 32%;
+    padding: 10px;
+    height: 500px;
+    overflow: hidden;
+    /* scale: 1; */
+}
+
+/* .inside-tablet-details:hover{
+    scale: 0.8;
+} */
+
+
+/* .inside-tablet-details:hover{
+
+} */
+
+.inside-tablet-details .power-percentage{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.inside-tablet-details .power-percentage h4{
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+
+.inside-tablet-details .main-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.inside-tablet-details .main-img img{
+    width: 300px;
+    height: 300px;
+    /* scale: 1; */
+}
+
+/* .inside-tablet-details .main-img img:hover{
+    scale: 0.5;
+} */
+
+/* .inside-tablet-details .main-img:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+} */
+
+.inside-tablet-details .main-img img:hover{
+    width: 200px;
+    height: 200px;
+    transition: all .4s ease-in-out;
+}
+
+.inside-tablet-details .circle-button{
+    margin: 30px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inside-tablet-details .circle-button div{
+    width: 22px;
+    height: 22px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.inside-tablet-details .circle-button div .button-circle1{
+    width: 15px;
+    height: 15px;
+    background:  rgb(47, 46, 46);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.inside-tablet-details .circle-button .border-noo{
+    border: none;
+}
+.inside-tablet-details .circle-button div .button-circle2{
+    width: 15px;
+    height: 15px;
+    border: none;
+    background:  rgb(123, 109, 155);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.name-amout{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+.name-amout .tablet-name{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.95);
+    margin-bottom: 20px;
+    
+}
+
+.name-amout .tablet-price{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.95);
+}
+.name-amout .tablet-price span{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgba(66, 64, 64, 0.95);
+    text-decoration: dashed;
+}
+
+.inside-tablet-details .two-main-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 10px;
+}
+.inside-tablet-details .two-main-button .learn-more{
+    width: 55%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid rgb(195, 192, 192);
+    color: black;
+    margin-right: 10px;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+.inside-tablet-details .two-main-button .learn-more:hover{
+    border: 1px solid black;
+}
+
+.inside-tablet-details .two-main-button .buy-button{
+    width: 45%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid rgb(195, 192, 192);
+    background: black;
+    color: whitesmoke;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+.inside-tablet-details .two-main-button .buy-button:hover{
+    background: rgb(90, 89, 89);
+}
